@@ -30,51 +30,32 @@ html{
 }
 .curtains>li.hidden{display:none;}
 .curtains>li:first-child{z-index:2;}
+/*^  curtain.js css*/
 
 
-
-h1 {font-size: 48px}
-
+h1 {font-size: 64px}
 
 h2 {font-size: 36px}
 
 h3 {font-size: 28px}
 
-#container {
-	width:800px;
-	margin: auto;
+#title-page-name {
+  margin: 157px 0 0 30%;
+  font-family: 'Niconne', cursive;
+  width: 40%;
 }
 
-#header-section {
-	position:relative;
-	margin: 30px 0 0 0;
+#title-page-description {
+  font-family: 'Smythe', cursive;
+  margin: 15px 0 0 46%;
+  width: 40%;
 }
 
-#nav-holder {
-	background-color: #555;
-}
-
-.nav-boar {
-	height: 100px;
-	background-color: #333333;
-	width:	675px;
-	margin: -50px auto 0px auto;
-	padding-top: 45px;
-	border-radius: 125px;
-}
-.header-text {
-	color: #333333;
-	margin:auto;
-}
-#ga-logo {
-	width: 37px;
-	margin:-11px 16px 0 0;
-}
-
-#my-name {
-	font-size: 38px;
-	width: 300px;
-	margin:0 auto 25px auto; 
+#fixed-text {
+  font-family: 'Smythe', cursive;
+  margin: 300px 0 0 10px;
+  width: 279px;
+  font-size: 30px;
 }
 
 .github-icon {
@@ -82,63 +63,23 @@ h3 {font-size: 28px}
 	margin: 0 0 -17px 7px;
 }
 
-.class-nav {
-	font-size: 18px;
-	color: #403426;
-}
 
-#brand {
-	font-size: 33px;
-	margin:5px 28px 0 38px;
-}
 
 .linkedin-icon {
 margin: 0 0 -12px 11px;
 width:30px;
 }
 
-.home-icon {
-	width:30px;
-	margin:-4px 0 -12px 3px;
-}
-
-.projects-icon {
-	width:30px;
-	margin:0 0 -12px 13px;
-}
-
-span {	
-	position:relative;
-	left:228px;
-}
-
-p {
-	color:#3e3e3e;
-}
-#left-container {
-	width:575px;
-	float:left;
-}
-
-#side-bar {
-	position:fixed;
-	bottom:1%;
-	right:3%;
-	width:250px;
-	height: 110px;
-	border:solid #000 1px;
-}
 
 .cleaned-link {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	position: relative;
-
 }
 
 #section-1 {
-	background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/diagonales_decalees.png); background-size: auto; background-repeat: repeat repeat;"
-}
+	background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/linedpaper.png); background-size: auto; background-repeat: repeat repeat;
+  }
 
 #section-2 {
   background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/debut_dark.png); background-size: auto; background-repeat: repeat repeat;
@@ -159,8 +100,11 @@ p {
   float:right;
 }
 
-.fixed {
-  width:300px;
-  margin:300px 0 0 10px;
-  float:left;
+.skydiving-images{
+width:500px !important;
+  height:auto !important;
+}
+
+.slidesjs-control {
+  height:600px;
 }

@@ -6,42 +6,44 @@
 		<meta name="description" content="Mike Schechter">
 		<title>Mike Schechter</title>
 		<link rel="stylesheet" type='text/css' href="css-reset.css">
-		<link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.css">
+<!-- 		<link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.css"> -->
 <!-- 		<link rel="stylesheet" type="text/css" href="public/foundation.min.css">
- -->		<link rel="stylesheet" type='text/css' href="css-style.css">
+ -->		
+ <link rel="stylesheet" type='text/css' href="css-style.css">
+ <link href='http://fonts.googleapis.com/css?family=Niconne|Smythe|Loved+by+the+King' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<ol class="curtains">
 			<!--<li id="section-1" class="cover" data-parallax-background="-.05">-->
 			<li id="section-1" class="cover">
 				<header data-fade="550" data-slow-scroll="3">
-									<p>Mike Schechter</p>  
-									
-						</div>
-					</div><!-- #container --> 
+					<section class='section1-text'>
+						<h1 id='title-page-name'>Mike Schechter</h1>
+						<h3 id='title-page-description'>Full Stack Web Developer</h5>
+					</section>
 				</header>
 			</li>
 			<li id="section-2">
-				<article id='Skydiving-page-article'>
-					<h4>Some Shit about skydiving?</h4>
-					<hr>
-					<p>Hashtag swag hella, ugh seitan eu labore before they sold out small batch McSweeney's pour-over fap stumptown sapiente. Disrupt blog nostrud, McSweeney's reprehenderit wolf Brooklyn mollit bespoke. Fap sed keffiyeh reprehenderit squid 3 wolf moon fashion axe.</p>
-					<p> leggings put a bird on it Neutra. Quis stumptown occupy mlkshk, sriracha ethical scenester accusamus pug iPhone sapiente. Butcher locavore single-origin coffee salvia squid do authentic Etsy, non cornhole twee.<br>
-							 skateboard, jean shorts semiotics before they sold out et. Intelligentsia viral art party stumptown, occaecat lomo hella wolf beard </p>
-					<h4>authentic yr cardigan sint velit. Pour-over officia vero hella aute cray typewriter.</h4>
-					<hr>
-					<p class="align-center">
-						<a href="#" class="button">Some links</a>
-						<a href="#" class="button">and shit??</a> 
-					</p>
-				</article>
-				<img id='sequestials' src="images/17_way_max1.jpg">
+				<div class="container">
+			    <div id="slides">
+			      <img class='skydiving-images' id='sequestials' src="images/skydiving/17_way_max1.jpg">
+			      <img class='skydiving-images' src="images/skydiving/chunk_w_divers.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/diving_plane1.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/landing.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/night_crw.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/s_os.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/sequentials-06.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/Sequentials-07.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/stand_up_concentric_o.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/tandem_over_taupo.jpg" >
+			      <img class='skydiving-images' src="images/skydiving/World-RecordBottom.jpg" >
+			    </div>
+				</div>
 			</li>
 		<li id="section-3">
 			<section class="photos">
 				<div class="fixed">
-					<h4>Here are some projects that I've been working on.</h4>
-					<p>They all need to be cleaned up and developed more before this site is done.....</p>
+					<h4 id='fixed-text'>Here are some projects that I've been working on while at .</h4>
 				</div>
 				<div class="photos-inner">
 					<ul class="step-list">
@@ -52,7 +54,7 @@
 							<img class='app-screen-shots' src="images/WifiCiti.png" alt="http://wificiti.herokuapp.com/">
 						</li>
 						<li class="step">
-							<img class='app-screen-shots' src="images/Fishgame.png" alt="http://fish-friendzy.herokuapp.com/">
+							<img class='app-screen-shots' src="images/Fishgame.jpg" alt="http://fish-friendzy.herokuapp.com/">
 						</li>
 						<li class="step">
 							<img class='app-screen-shots' src="images/Simple-Chat.png" alt="http://tranquil-tundra-5404.herokuapp.com/">
@@ -87,6 +89,10 @@
 	</ol>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="public/curtain.js"></script>
+		<script src="public/slideshow.js"></script>
+	<script src='public/gitpage.js'></script>
+  <script src="public/slideshow.js"></script>
+
 	<script>
 	$(function(){
 		$('.curtains').curtain({
@@ -99,5 +105,19 @@
 		});
 	});
 	</script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 640,
+        height: 328,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
 </body>
 </html>
