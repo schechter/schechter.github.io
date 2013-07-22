@@ -8,19 +8,29 @@ function remove_aspiring() {
 
 function show_number (){
   var num_div = $('<div>');
-  num_div.addClass('my_number')
+  num_div.addClass('my_number');
   num_div.text('209-366-3563');
   $('#social-links').append(num_div);
 }
 
 function hide_number(){
-  console.log('here')
-  $('.my_number').hide()
+  $('.my_number').hide();
+}
+
+function show_tech (e){
+  var tech_text = e.target.id;
+  $('#logo-show').text(tech_text);
+}
+
+function hide_tech (){
+   $('#logo-show').text('')
 }
 
 $(function(){
   $('.section1-text').on('hover', $('#title-page-description'), add_aspiring);
   $('.section1-text').on('mouseout', $('#title-page-description'), remove_aspiring);
-  $('#social-links').on('hover', '.phone-icon', show_number)
-  $('#social-links').on('mouseout', '.phone-icon', hide_number)
+  $('#social-links').on('hover', '.phone-icon', show_number);
+  $('#social-links').on('mouseout', '.phone-icon', hide_number);
+  $('#techs').on('hover', 'img', show_tech);
+  $('#techs').on('mouseout', 'img', hide_tech);  
 });

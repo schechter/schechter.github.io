@@ -118,7 +118,6 @@ height:auto !important;
   right:30px;
 }
 
-
 .slide-description {
   font-family: 'Smythe', cursive;
   display: inline-block;
@@ -140,16 +139,16 @@ height:auto !important;
   margin:0 0 0 5px ;
 }
 
-#python {
+#Python {
   width:76px;
   height:auto;
   margin: 0 0 -6px 0;
 }
-#ruby {
+#Ruby {
   width:72px;
   height:auto;
 }
-#rails {
+#Rails {
   width:58px;
   height:auto;
   margin:0 14px;
@@ -163,16 +162,16 @@ height:auto !important;
   width:71px;
   height:auto;
 }
-#postgresql {
+#Postgresql {
   width:81px;
   height:auto;
 }
-#Javascript {
+#JavaScript {
   width:104px;
   height:auto;
 }
 
-#haml {
+#HAML {
   width:75px;
   height:auto;
 }
@@ -218,5 +217,23 @@ position:relative;
   font-size:27px;
   color: #1d1e19;
   margin: 0 0 0 61px;
-
+  -webkit-text-shadow: 2px 2px 3px #b8be9e;
+  -moz-text-shadow: 2px 2px 3px #b8be9e;
+  text-shadow: 2px 2px 3px #b8be9e;
+  color: #1d1e19;
 }
+
+#logo-show {
+  height:45px;
+  width:150px;
+  margin:0 0 0 200px;
+  text-align:right;
+  font-family: 'Niconne', cursive;
+  color: #1d1e19;
+  font-size:38px;
+  -webkit-text-shadow: 2px 2px 3px #d01218;
+  -moz-text-shadow: 2px 2px 3px #d01218;
+  text-shadow: 2px 2px 3px #d01218;
+}
+
+
