@@ -124,12 +124,24 @@ height:auto !important;
   width: 175px;
   position: fixed;
   margin: 0 0 0 -340px;
-  font-size: 33px;
+  font-size: 38px;
   line-height:50px; 
-  -webkit-text-shadow: 7px 7px 28px #b8be9e;
-  -moz-text-shadow: 7px 7px 28px #b8be9e;
-  text-shadow: 7px 7px 28px #b8be9e;
+  -webkit-text-shadow: 9px 9px 31px #b8be9e;
+  -moz-text-shadow: 9px 9px 31px #b8be9e;
+  text-shadow: 9px 9px 31px #b8be9e;
   color: #1d1e19;
+}
+
+.brian-tandem-pic {
+  margin: 46px 0 0 -340px;
+}
+
+.world-record-pic {
+  margin: 160px 0 0 -340px;
+}
+
+.up-a-bit {
+  margin:-40px 0 0 -340px;
 }
 
 #techs {
