@@ -32,12 +32,18 @@ html{
 .curtains>li:first-child{z-index:2;}
 /*^  curtain.js css*/
 
-
 h1 {font-size: 64px}
 
-h2 {font-size: 36px}
-
 h3 {font-size: 28px}
+
+h4 {
+  font-size: 38px;
+  line-height:69px;
+  -webkit-text-shadow: 1px 1px 8px #b8be9e;
+  -moz-text-shadow: 1px 1px 8px #b8be9e;
+  text-shadow: 1px 1px 8px #b8be9e;
+  color: #1d1e19;
+}
 
 #title-page-name {
   margin: 157px 0 0 30%;
@@ -47,14 +53,17 @@ h3 {font-size: 28px}
 
 #title-page-description {
   font-family: 'Smythe', cursive;
-  margin: 15px 0 0 46%;
-  width: 40%;
+  margin: 15px 0 0 0;
+  width: 190px;
+  display: inline-block;
+  position: relative;
+  left: 56%;
 }
 
 #fixed-text {
   font-family: 'Smythe', cursive;
-  margin: 300px 0 0 10px;
-  width: 279px;
+  margin: 30px 0 0 10px;
+  width: 344px;
   font-size: 30px;
 }
 
@@ -62,8 +71,6 @@ h3 {font-size: 28px}
 	width: 35px;
 	margin: 0 0 -17px 7px;
 }
-
-
 
 .linkedin-icon {
 margin: 0 0 -12px 11px;
@@ -82,13 +89,15 @@ width:30px;
   }
 
 #section-2 {
-  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/debut_dark.png); background-size: auto; background-repeat: repeat repeat;
-
+  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/grey_wash_wall.png); background-size: auto; background-repeat: repeat repeat;
 }
 
-#sequestials {
-	width:85%;
-  margin: 0 0 0 5%;
+#section-3 {
+  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/old_mathematics.png); background-size: auto; background-repeat: repeat repeat;
+}
+
+#section-4 {
+
 }
 
 #Skydiving-page-article {
@@ -96,15 +105,83 @@ width:30px;
 }
 
 .app-screen-shots {
+  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/old_mathematics.png); background-size: auto; background-repeat: repeat repeat;
   width: 750px;
   float:right;
 }
 
 .skydiving-images{
-width:500px !important;
-  height:auto !important;
+width:600px !important;
+height:auto !important;
 }
 
 .slidesjs-control {
-  height:600px;
+  height:800px;
 }
+
+.slide-holder {
+  width: 700px;
+  margin: 45px 0 0 300px;
+  position:relative;
+  right:30px;
+}
+
+
+.slide-description {
+  font-family: 'Smythe', cursive;
+  display: inline-block;
+  width: 175px;
+  position: fixed;
+  margin: 0 0 0 -340px;
+  font-size: 33px;
+  line-height:50px; 
+  -webkit-text-shadow: 7px 7px 28px #b8be9e;
+  -moz-text-shadow: 7px 7px 28px #b8be9e;
+  text-shadow: 7px 7px 28px #b8be9e;
+  color: #1d1e19;
+}
+
+#techs {
+  width:350px;
+  background:white;
+  border-radius:30px;
+  margin:0 0 0 5px ;
+}
+
+#python {
+  width:76px;
+  height:auto;
+  margin: 0 0 -6px 0;
+}
+#ruby {
+  width:72px;
+  height:auto;
+}
+#rails {
+  width:58px;
+  height:auto;
+  margin:0 14px;
+}
+#HTML5 {
+  width:73px;
+  height:auto;
+  margin: 0 13px;
+}
+#CSS3 {
+  width:71px;
+  height:auto;
+}
+#postgresql {
+  width:81px;
+  height:auto;
+}
+#Javascript {
+  width:104px;
+  height:auto;
+}
+
+#haml {
+  width:75px;
+  height:auto;
+}
+
