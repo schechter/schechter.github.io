@@ -81,7 +81,7 @@ h4 {
   }
 
 #section-2 {
-  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/grey_wash_wall.png); background-size: auto; background-repeat: repeat repeat;
+  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/scribble_light.png); background-size: auto; background-repeat: repeat repeat;
 }
 
 #section-3 {
@@ -105,6 +105,9 @@ h4 {
 .skydiving-images{
 width:600px !important;
 height:auto !important;
+-webkit-box-shadow: 5px 15px 10px #1d1f11;
+-moz-box-shadow: 5px 15px 10px #1d1f11;
+box-shadow: 5px 15px 10px #1d1f11;
 }
 
 .slidesjs-control {
@@ -128,8 +131,36 @@ height:auto !important;
   line-height:50px; 
   -webkit-text-shadow: 9px 9px 31px #b8be9e;
   -moz-text-shadow: 9px 9px 31px #b8be9e;
-  text-shadow: 9px 9px 31px #b8be9e;
+  background-color: rgba(255, 255, 255, 0.3);
   color: #1d1e19;
+}
+
+.landing-pic {
+  margin: -40px 0 0 -340px;
+}
+
+.chunk-pic {
+  margin: -40px 0 0 -340px;
+}
+
+.diving-otter-pic {
+  margin: -30px 0 0 -340px;
+}
+
+.sequential-pics {
+  margin: -20px 0 0 -340px;
+}
+
+.three-o-pic {
+  margin: 160px 0 0 -340px;
+}
+
+.s-o-pic {
+  margin: 0 0 0 -340px;
+}
+
+.concentric-pic {
+  margin: -20px 0 0 -340px;
 }
 
 .brian-tandem-pic {
@@ -137,11 +168,7 @@ height:auto !important;
 }
 
 .world-record-pic {
-  margin: 160px 0 0 -340px;
-}
-
-.up-a-bit {
-  margin:-40px 0 0 -340px;
+  margin: 385px 0 0 -340px;
 }
 
 #techs {
@@ -243,9 +270,9 @@ position:relative;
   font-family: 'Niconne', cursive;
   color: #1d1e19;
   font-size:38px;
-  -webkit-text-shadow: 2px 2px 3px #d01218;
-  -moz-text-shadow: 2px 2px 3px #d01218;
-  text-shadow: 2px 2px 3px #d01218;
+  -webkit-text-shadow: 1px 1px  #d01218;
+  -moz-text-shadow: 1px 1px  #d01218;
+  text-shadow: 1px 1px  #d01218;
 }
 
 

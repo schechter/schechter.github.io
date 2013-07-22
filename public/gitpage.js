@@ -27,8 +27,8 @@ function hide_tech (){
 }
 
 $(function(){
-  $('.section1-text').on('hover', $('#title-page-description'), add_aspiring);
-  $('.section1-text').on('mouseout', $('#title-page-description'), remove_aspiring);
+  $('.section1-text').on('hover', '#title-page-description', add_aspiring);
+  $('.section1-text').on('mouseout', '#title-page-description', remove_aspiring);
   $('#social-links').on('hover', '.phone-icon', show_number);
   $('#social-links').on('mouseout', '.phone-icon', hide_number);
   $('#techs').on('hover', 'img', show_tech);
