@@ -96,10 +96,16 @@ h4 {
 	position:fixed;
 }
 
+#section3-photo-holder{
+  width: 700px;
+  float:right;
+}
+
 .app-screen-shots {
  /* background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/old_mathematics.png); background-size: auto; background-repeat: repeat repeat;
-*/  width: 750px;
-  float:right;
+*/  width: 450px;
+  position: relative;
+  margin:100px auto;
 }
 
 .skydiving-images{
@@ -226,7 +232,7 @@ box-shadow: 5px 15px 10px #1d1f11;
 }
 
 #social-links {
- width: 650px;
+ width: 835px;
   margin: 15px auto;
 }
 
@@ -259,7 +265,6 @@ position:relative;
   -webkit-text-shadow: 2px 2px 3px #b8be9e;
   -moz-text-shadow: 2px 2px 3px #b8be9e;
   text-shadow: 2px 2px 3px #b8be9e;
-  color: #1d1e19;
 }
 
 #logo-show {
@@ -267,12 +272,12 @@ position:relative;
   width:150px;
   margin:0 0 0 200px;
   text-align:right;
-  font-family: 'Niconne', cursive;
+  font-family: 'Smythe', cursive;
   color: #1d1e19;
   font-size:38px;
-  -webkit-text-shadow: 1px 1px  #d01218;
-  -moz-text-shadow: 1px 1px  #d01218;
-  text-shadow: 1px 1px  #d01218;
+  -webkit-text-shadow: 2px 2px 1px  #fff;
+  -moz-text-shadow: 2px 2px 1px  #fff;
+  text-shadow: 2px 2px 1px  #fff;
 }
 
 
