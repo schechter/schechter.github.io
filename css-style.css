@@ -65,8 +65,8 @@ h4 {
 
 #fixed-text {
   font-family: 'Smythe', cursive;
-  margin: 30px 0 0 10px;
-  width: 344px;
+  margin: 10px 0 0 10px;
+  width: 475px;
   font-size: 30px;
 }
 
@@ -97,15 +97,44 @@ h4 {
 }
 
 #section3-photo-holder{
-  width: 700px;
+  width: 800px;
   float:right;
 }
 
+.app-image-holder {
+  width:450px;
+  height:300px;
+  margin:50px auto;
+
+}
+
+.app-description {
+  z-index: 0;
+  position:fixed;
+  width:185px;
+}
+
+p{
+  line-height: 24px;
+}
+
 .app-screen-shots {
- /* background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/old_mathematics.png); background-size: auto; background-repeat: repeat repeat;
-*/  width: 450px;
+  width: 450px;
   position: relative;
-  margin:100px auto;
+  margin:auto;
+  z-index: 200;
+}
+
+.app-screen-shots:hover {
+transition:All 1.3s ease-in-out;
+-webkit-transition:All 1.3s ease-in-out;
+-moz-transition:All 1.3s ease-in-out;
+-o-transition:All 1.3s ease-in-out;
+transform: translate(10px);
+-webkit-transform: translate(200px);
+-moz-transform: translate(200px);
+-o-transform: translate(200px);
+-ms-transform: translate(200px);
 }
 
 .skydiving-images{
@@ -178,7 +207,7 @@ box-shadow: 5px 15px 10px #1d1f11;
 }
 
 #techs {
-  width:350px;
+  width:460px;
   background:white;
   border-radius:30px;
   margin:0 0 0 5px ;
@@ -208,7 +237,7 @@ box-shadow: 5px 15px 10px #1d1f11;
   height:auto;
 }
 #Postgresql {
-  width:81px;
+  width:74px;
   height:auto;
 }
 #JavaScript {
@@ -218,7 +247,37 @@ box-shadow: 5px 15px 10px #1d1f11;
 
 #HAML {
   width:75px;
-  height:auto;
+  margin-left: 4px;
+}
+
+#jQuery{
+  width:79px;
+}
+
+#CoffeeScript {
+  width:87px;
+}
+
+#rSpec {
+  width:77px;
+  margin: 0 5px 7px 5px;
+}
+
+#Git {
+  width:87px;
+}
+
+#Heroku {
+  width:79px;
+  margin: 0 5px;
+}
+
+#PivitalTracker{
+  width:79px;
+}
+
+#Cucumber {
+  width:150px;
 }
 
 #contact-me {
