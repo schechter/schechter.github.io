@@ -352,4 +352,6 @@ position:relative;
   text-shadow: 2px 2px 1px  #fff;
 }
 
-
+.hidden {
+  display:none;
+}

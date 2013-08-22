@@ -42,6 +42,11 @@ function hide_tech (){
    $('#logo-show').text('');
 }
 
+function show_project_links(){
+  var links = $(this).parent().find('.project-links');
+  links.removeClass('hidden');
+}
+
 $(function(){
   $('.section1-text').on('hover', '#title-page-description', add_aspiring);
   $('.section1-text').on('mouseout', '#title-page-description', remove_aspiring);
@@ -50,5 +55,6 @@ $(function(){
   $('#social-links').on('mouseenter', '.projecteuler-icon', show_uelerkey);
   $('#social-links').on('mouseout', '.projecteuler-icon', hide_uelerkey);
   $('#techs').on('hover', 'img', show_tech);
-  $('#techs').on('mouseout', 'img', hide_tech);  
+  $('#techs').on('mouseout', 'img', hide_tech);
+  $('#section3-photo-holder').on('mouseover', '.app-screen-shots', show_project_links);
 });
