@@ -45,7 +45,11 @@ function hide_tech (){
 function show_project_links(){
   var links = $(this).parent().find('.project-links');
   links.removeClass('hidden');
+  setTimeout(function(){
+    links.addClass('hidden');
+  }, 8000);
 }
+
 
 $(function(){
   $('.section1-text').on('hover', '#title-page-description', add_aspiring);
