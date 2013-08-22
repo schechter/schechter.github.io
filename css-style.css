@@ -355,3 +355,9 @@ position:relative;
 .hidden {
   display:none;
 }
+
+.resume {
+  position: fixed;
+  bottom: 25px;
+  left: 77px;
+}

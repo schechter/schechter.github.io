@@ -61,4 +61,6 @@ $(function(){
   $('#techs').on('hover', 'img', show_tech);
   $('#techs').on('mouseout', 'img', hide_tech);
   $('#section3-photo-holder').on('mouseover', '.app-screen-shots', show_project_links);
+
+
 });
