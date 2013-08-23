@@ -28,9 +28,7 @@ function show_uelerkey(){
 }
 
 function hide_uelerkey(){
-  setTimeout(function(){
   $('.my_euler-key').remove();
-  },500);
 }
 
 function show_tech (e){
@@ -45,9 +43,6 @@ function hide_tech (){
 function show_project_links(){
   var links = $(this).parent().find('.project-links');
   links.removeClass('hidden');
-  setTimeout(function(){
-    links.addClass('hidden');
-  }, 8000);
 }
 
 
