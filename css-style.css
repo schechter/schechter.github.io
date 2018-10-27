@@ -1,5 +1,5 @@
 body {
-	font-family: georgia, serif;
+  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/linedpaper.png); background-size: auto; background-repeat: repeat repeat;
 	width: 95%;
 	margin:auto;
 	position:relative;
@@ -10,289 +10,13 @@ html{
     overflow-x: hidden;
 }
 
-.curtains{
-    width: 100%;
-    z-index:1;
-    position:relative;
-}
-
-.curtains>li{
-    -webkit-transform:translateZ(0);
-    background: white;
-    position: fixed;
-    display:block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    z-index:1;
-}
-.curtains>li.hidden{display:none;}
-.curtains>li:first-child{z-index:2;}
-/*^  curtain.js css*/
-
-h1 {
-  font-size: 64px;
-  font-family: 'Niconne', cursive;
-  color: #1d1e19;
-}
-
-h3 {font-size: 28px}
-
-h4 {
-  font-size: 38px;
-  line-height:69px;
-  -webkit-text-shadow: 1px 1px 8px #b8be9e;
-  -moz-text-shadow: 1px 1px 8px #b8be9e;
-  text-shadow: 1px 1px 8px #b8be9e;
-  color: #1d1e19;
-}
-
-#title-page-name {
-  margin: 157px 0 0 30%;
-  width: 40%;
-}
-
-#title-page-description {
-  font-family: 'Smythe', cursive;
-  margin: 15px 0 0 0;
-  width: 190px;
-  display: inline-block;
-  position: relative;
-  left: 56%;
-}
-
-#fixed-text {
-  font-family: 'Smythe', cursive;
-  margin: 10px 0 0 10px;
-  width: 475px;
-  font-size: 30px;
-}
-
-.cleaned-link {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	position: relative;
-}
-
-#section-1 {
-	background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/linedpaper.png); background-size: auto; background-repeat: repeat repeat;
-  }
-
-#section-2 {
-  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/scribble_light.png); background-size: auto; background-repeat: repeat repeat;
-}
-
-#section-3 {
-  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/old_mathematics.png); background-size: auto; background-repeat: repeat repeat;
-}
-
-#section-4 {
-  background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/paper_fibers.png); background-size: auto; background-repeat: repeat repeat;
-}
-
-#Skydiving-page-article {
-	position:fixed;
-}
-
-#section3-photo-holder{
-  width: 800px;
-  float:right;
-}
-
-.app-image-holder {
-  width:450px;
-  height:300px;
-  margin:50px auto;
-
-}
-
-.app-description {
-  z-index: 0;
-  position:fixed;
-  width:185px;
-}
-
-p{
-  line-height: 24px;
-}
-
-.app-screen-shots {
-  width: 450px;
-  position: relative;
-  margin:auto;
-  z-index: 200;
-}
-
-.app-screen-shots:hover {
-transition:All 1.3s ease-in-out;
--webkit-transition:All 1.3s ease-in-out;
--moz-transition:All 1.3s ease-in-out;
--o-transition:All 1.3s ease-in-out;
-transform: translate(10px);
--webkit-transform: translate(200px);
--moz-transform: translate(200px);
--o-transform: translate(200px);
--ms-transform: translate(200px);
-}
-
-.skydiving-images{
-width:600px !important;
-height:auto !important;
--webkit-box-shadow: 5px 15px 10px #1d1f11;
--moz-box-shadow: 5px 15px 10px #1d1f11;
-box-shadow: 5px 15px 10px #1d1f11;
-}
-
-.slidesjs-control {
-  height:800px;
-}
-
-.slide-holder {
-  width: 700px;
-  margin: 45px 0 0 300px;
-  position:relative;
-  right:30px;
-}
-
-.slide-description {
-  font-family: 'Smythe', cursive;
-  display: inline-block;
-  width: 175px;
-  position: fixed;
-  margin: 0 0 0 -340px;
-  font-size: 38px;
-  line-height:50px; 
-  -webkit-text-shadow: 9px 9px 31px #b8be9e;
-  -moz-text-shadow: 9px 9px 31px #b8be9e;
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #1d1e19;
-}
-
-.landing-pic {
-  margin: -40px 0 0 -340px;
-}
-
-.chunk-pic {
-  margin: -40px 0 0 -340px;
-}
-
-.diving-otter-pic {
-  margin: -30px 0 0 -340px;
-}
-
-.sequential-pics {
-  margin: -20px 0 0 -340px;
-}
-
-.three-o-pic {
-  margin: 160px 0 0 -340px;
-}
-
-.s-o-pic {
-  margin: 0 0 0 -340px;
-}
-
-.concentric-pic {
-  margin: -20px 0 0 -340px;
-}
-
-.brian-tandem-pic {
-  margin: 46px 0 0 -340px;
-}
-
-.world-record-pic {
-  margin: 385px 0 0 -340px;
-}
-
-#techs {
-  width:460px;
-  background:white;
-  border-radius:30px;
-  margin:0 0 0 5px ;
-}
-
-#Python {
-  width:76px;
-  height:auto;
-  margin: 0 0 -6px 0;
-}
-#Ruby {
-  width:72px;
-  height:auto;
-}
-#Rails {
-  width:58px;
-  height:auto;
-  margin:0 14px;
-}
-#HTML5 {
-  width:73px;
-  height:auto;
-  margin: 0 13px;
-}
-#CSS3 {
-  width:71px;
-  height:auto;
-}
-#Postgresql {
-  width:74px;
-  height:auto;
-}
-#JavaScript {
-  width:104px;
-  height:auto;
-}
-
-#HAML {
-  width:75px;
-  margin-left: 4px;
-}
-
-#jQuery{
-  width:79px;
-}
-
-#CoffeeScript {
-  width:87px;
-}
-
-#rSpec {
-  width:77px;
-  margin: 0 5px 7px 5px;
-}
-
-#Git {
-  width:87px;
-}
-
-#Heroku {
-  width:79px;
-  margin: 0 5px;
-}
-
-#PivitalTracker{
-  width:79px;
-}
-
-#Cucumber {
-  width:150px;
-}
-
-#contact-me {
-  width:280px;
-  margin:15% auto 0 auto;
-}
-
 .social-links-li {
   display:inline-block;
   margin:0 10px;
 }
 
 #social-links {
- width: 835px;
-  margin: 15px auto;
+ margin: 30%;
 }
 
 .email-icon {
@@ -304,6 +28,12 @@ box-shadow: 5px 15px 10px #1d1f11;
   width: 65px;
   position:relative;
 }
+
+.resume-icon {
+  width: 45px;
+  border: #e0e0e0 solid 1px;
+}
+
 
 .linkedin-icon {
 width:65px;
@@ -317,7 +47,6 @@ position:relative;
 .my_number {
   height:33px;
   width:139px;
-  font-family: 'Smythe', cursive;
   font-size:27px;
   color: #1d1e19;
   margin: 0 0 0 61px;
@@ -325,39 +54,5 @@ position:relative;
   -moz-text-shadow: 2px 2px 3px #b8be9e;
   text-shadow: 2px 2px 3px #b8be9e;
 }
-
-.my_euler-key {
-   height:33px;
-  width:480px;
-  font-family: 'Smythe', cursive;
-  font-size:32px;
-  text-align: center;
-  color: #1d1e19;
-  margin: 0 0 0 310px;
-  -webkit-text-shadow: 2px 2px 3px #b8be9e;
-  -moz-text-shadow: 2px 2px 3px #b8be9e;
-  text-shadow: 2px 2px 3px #b8be9e;
-}
-
-#logo-show {
-  height:45px;
-  width:150px;
-  margin:0 0 0 200px;
-  text-align:right;
-  font-family: 'Smythe', cursive;
-  color: #1d1e19;
-  font-size:38px;
-  -webkit-text-shadow: 2px 2px 1px  #fff;
-  -moz-text-shadow: 2px 2px 1px  #fff;
-  text-shadow: 2px 2px 1px  #fff;
-}
-
-.hidden {
-  display:none;
-}
-
 .resume {
-  position: fixed;
-  bottom: 25px;
-  left: 77px;
 }
